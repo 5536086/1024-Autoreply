@@ -1,6 +1,11 @@
 # 1024(草榴论坛)-Autoreply
 
-因为考研在即，加上1024的回复机制确实有点繁琐，所以打算用个python脚本做一个自动回帖，本脚本主要适用于新手上路到侠客之间 
+**#更新日志**
+
+        2021.1.22 修复草榴社区更改造成的回复失败
+
+
+~~因为考研在即~~(考完了，体验了一次真题。体验很好，下次不来了)，加上1024的回复机制确实有点繁琐，所以打算用个python脚本做一个自动回帖，本脚本主要适用于新手上路到侠客之间 
 
 <h4>使用说明(github Actions方式)</h4>
 
@@ -23,7 +28,7 @@
 
         TOKER            阿里验证码识别接口AppCode
 
-(可选2)([注册地址](http://ttshitu.com/register.html?inviter=d14dbc3ccecc4df2b4e0eaebef556f13) )
+(可选2)([注册地址](http://ttshitu.com/register.html?inviter=3d92d1b2371f487d9072430a93bb043c) )
 
         CODEUSER         注册用户名
 
