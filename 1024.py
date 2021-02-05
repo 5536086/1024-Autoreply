@@ -253,7 +253,7 @@ if __name__ == "__main__":
     m=auto.getnumber()
     auto.gettodaylist()
     #回复
-    while n<10 and suc is False:
+    while n<30 and suc is False:
         try:
             auto.debug("当前在第"+str(n+1)+'个。')
             auto.getonelink()
@@ -269,7 +269,7 @@ if __name__ == "__main__":
                 sleep(sleeptime)
                 auto.debug('休眠完成')
             elif au=='今日已达上限':
-                auto.debug('回复失败，今日次数已达10次')
+                auto.debug('回复失败，今日次数已达30次')
                 suc=True
             else:
                 auto.debug('1024限制！！！')
